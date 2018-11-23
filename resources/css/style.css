@@ -27,7 +27,7 @@ html {
 }
 
 i {
-  font-size: 15px;
+  font-size: 85%;
 }
 /*------------------------------ */
 /*RESUABLE COMPONENTS */
@@ -221,7 +221,7 @@ header {
 .logo{
   width: auto;
   float: left;
-  margin-top: 20px;
+  margin-top: 2%;
   height: 100px;
 
 }
@@ -235,7 +235,7 @@ header {
 .main-nav {
   float: right;
   list-style: none;
-  margin-top:55px;
+  margin-top:5%;
 }
 
 .main-nav li {
@@ -307,7 +307,7 @@ header {
 }
 
   .sticky .main-nav {
-  margin-top: 17px;
+  margin-top: 1.2%;
 
 }
 

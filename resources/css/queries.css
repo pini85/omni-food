@@ -160,7 +160,7 @@
   section { padding: 25px 0; }
   h1 {
    font-size: 200%;
-   margin-bottom: 136px;
+   margin-bottom: 12%;
 
   }
 
@@ -171,6 +171,10 @@
   p { font-size: 70%; }
 
   h3 { font-size: 85% }
+
+  .logo {
+    margin-top: 5%
+  }
 
   .btn-full {
     display: inline-block;
