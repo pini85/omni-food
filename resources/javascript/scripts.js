@@ -1,14 +1,15 @@
 $(document).ready(function() {
 
-  $('.js--section-features').waypoint(function(direction) {
-    if (direction == "down") {
-      $('nav').addClass('sticky');
-    } else {
-      $('nav').removeClass('sticky');
-    }
-  }, {
-    offset: '100px;'
-  });
+  /* For the sticky navigation */
+    $('.js--section-features').waypoint(function(direction) {
+        if (direction == "down") {
+            $('nav').addClass('sticky');
+        } else {
+            $('nav').removeClass('sticky');
+        }
+    }, {
+      offset: '100px;'
+    });
 
   $('.js--scroll-to-plans').click(function() {
     $('html, body').animate({scrollTop: $('.js--section-plans').offset().top -60 }, 1000);
@@ -67,23 +68,5 @@ $(document).ready(function() {
 
         }
     });
-
-   // $('.js--nav-icon').click(function() {
-
-   //    var nav = $('.js--main-nav');
-   //    var icon = $('.js--nav-icon i');
-
-   //    nav.slideToggle(300);
-
-   //    if (icon.hasClass('fas fa-bars')) {
-   //       icon.addClass('fas fa-times');
-   //       icon.removeClass('fas fa-bars');
-   //    } else {
-   //      icon.addClass('fas fa-bars');
-   //      icon.removeClass('fas fa-times');
-   //    }
-
-   // });
-
 
   });

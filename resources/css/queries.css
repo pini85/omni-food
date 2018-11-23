@@ -52,7 +52,7 @@
   }
 
   .row,
-  .header-content { margin: 0 5%; }
+  .header-content { padding: 0 5%; }
 
   .main-nav {
     display: none;
@@ -83,6 +83,9 @@
     }
 
     .mobile-nav-icon { display: inline-block; }
+    .sticky {
+      top: 0px;
+    }
 
     .sticky .mobile-nav-icon i {
       font-size: 200%;
