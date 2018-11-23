@@ -17,6 +17,10 @@
     width: 80%;
     margin-left: 10%;
   }
+
+  header {
+    background-attachment: scroll;
+  }
  .works-step p { margin-bottom: 35px;}
 
  .works-step:last-of-type { margin-bottom: 40px; }
