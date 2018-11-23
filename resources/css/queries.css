@@ -141,6 +141,10 @@
 }
   select { margin-bottom: 5px; }
 
+  footer {
+    padding: 50px 30px;
+  }
+
   .footer-nav {
     margin-top: -11px;
   }
