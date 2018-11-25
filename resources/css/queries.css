@@ -118,7 +118,7 @@
 
 
 
-  .works-step p { margin-bottom: 14px;}
+  .works-step p { margin-bottom: 30px;}
   .works-step div {
     height: 36px;
     width: 36px;
@@ -213,16 +213,40 @@
 
 }
 
-@media screen and (orientation:landscape) {
-h1 { margin-top: 25%; }
+@media (max-width: 767px) and (orientation:landscape) {
+
+  h1 { margin-top: 138px; }
+
+  .footer-nav {
+  text-align: center;
+}
+
+.iphone {
+  width: 25%;
+}
+
+}
+
+
+@media (max-width: 640px) and (orientation:landscape) {
+h1 { margin-top: 134px; }
 .iphone { width: 20%; }
 
 .works-step p  {
 
-  margin-bottom: 40px;
+  margin-bottom: 5%;
+
+}
+
+.works-step:last-of-type {
+
+  margin-top: -4%;
+  margin-bottom: 10%;
 
 }
 
 .footer-nav {
   text-align: center;
 }
+
+
