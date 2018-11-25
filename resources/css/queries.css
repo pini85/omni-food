@@ -215,7 +215,7 @@
 
 @media (max-width: 767px) and (orientation:landscape) {
 
-  h1 { margin-top: 138px; }
+  h1 { padding-top: 138px; }
 
   .footer-nav {
   text-align: center;
@@ -229,7 +229,7 @@
 
 
 @media (max-width: 640px) and (orientation:landscape) {
-h1 { margin-top: 134px; }
+h1 { padding-top: 134px; }
 .iphone { width: 20%; }
 
 .works-step p  {
