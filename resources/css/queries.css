@@ -44,7 +44,13 @@
  .contact-form {width: 80%; }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 830px) and (orientation:landscape) {
+
+  h1 {
+    padding-top: 15%;
+  }
+}
+@media only screen and (max-width: 830px) {
 
   body { font-size: 15px; }
 
@@ -215,7 +221,7 @@
 
 @media (max-width: 767px) and (orientation:landscape) {
 
-  h1 { padding-top: 138px; }
+  h1 { padding-top: 22%; }
 
   .footer-nav {
   text-align: center;
@@ -229,7 +235,7 @@
 
 
 @media (max-width: 640px) and (orientation:landscape) {
-h1 { padding-top: 134px; }
+h1 { padding-top: 19%; }
 .iphone { width: 20%; }
 
 .works-step p  {

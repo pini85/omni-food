@@ -156,7 +156,7 @@ input[type=submit] {
   font-weight: 300;
   text-decoration: none;
   border-radius: 200px;
-  margin-top: 20px;
+  margin-top: 5%;
   transition: background-color 0.2s, border 0.2s, color 0.2s
 }
 
