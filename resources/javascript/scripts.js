@@ -12,7 +12,7 @@ $(document).ready(function() {
     });
 
   $('.js--scroll-to-plans').click(function() {
-    $('html, body').animate({scrollTop: $('.js--section-plans').offset().top -60 }, 1000);
+    $('html, body').animate({scrollTop: $('.js--section-plans').offset().top -55 }, 1000);
   });
 
   $('.js--scroll-to-start').click(function() {
@@ -20,7 +20,7 @@ $(document).ready(function() {
   });
 
   $('.js--scroll-to-steps').click(function() {
-    $('html, body').animate({scrollTop: $('.js--section-steps').offset().top -60 }, 1000);
+    $('html, body').animate({scrollTop: $('.js--section-steps').offset().top -55 }, 1000);
   });
 
   $('.js--scroll-to-cities').click(function() {
